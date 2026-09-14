@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390">
+<rect width="900" height="390" fill="#171717"/>
+<rect width="900" height="48" fill="#7f1d1d"/>
+<text x="24" y="31" fill="#ffffff" font-family="monospace" font-size="20" font-weight="bold">ILLUSTRATIVE OUTPUT - NOT EXECUTED</text>
+<text x="24" y="84" fill="#d4d4d4" font-family="monospace" font-size="18">$ deadlockdetect</text>
+<text x="24" y="116" fill="#f1f1f1" font-family="monospace" font-size="18">Deadlock detection using a wait-for graph</text>
+<text x="24" y="148" fill="#9cdcfe" font-family="monospace" font-size="16">Edges: P0 -&gt; P1  P1 -&gt; P2  P2 -&gt; P0</text>
+<text x="24" y="180" fill="#f48771" font-family="monospace" font-size="18">Deadlock cycle: P0 -&gt; P1 -&gt; P2 -&gt; P0</text>
+<text x="24" y="212" fill="#f48771" font-family="monospace" font-size="18">Deadlock detected</text>
+<text x="24" y="260" fill="#d4d4d4" font-family="monospace" font-size="16">Acyclic scenario edges: P0 -&gt; P1  P1 -&gt; P2</text>
+<text x="24" y="292" fill="#b5cea8" font-family="monospace" font-size="18">No deadlock detected</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="900" height="360" fill="#171717"/>
+<rect width="900" height="48" fill="#7f1d1d"/>
+<text x="24" y="31" fill="#ffffff" font-family="monospace" font-size="20" font-weight="bold">ILLUSTRATIVE OUTPUT - NOT EXECUTED</text>
+<text x="24" y="84" fill="#d4d4d4" font-family="monospace" font-size="18">$ bankers</text>
+<text x="24" y="116" fill="#f1f1f1" font-family="monospace" font-size="18">Banker's Algorithm</text>
+<text x="24" y="148" fill="#9cdcfe" font-family="monospace" font-size="18">Safe sequence: P1 -&gt; P3 -&gt; P4 -&gt; P0 -&gt; P2</text>
+<text x="24" y="180" fill="#b5cea8" font-family="monospace" font-size="18">Initial state: SAFE</text>
+<text x="24" y="212" fill="#f1f1f1" font-family="monospace" font-size="18">Request from P1: (1, 0, 2)</text>
+<text x="24" y="244" fill="#b5cea8" font-family="monospace" font-size="18">Request granted: resulting state is SAFE</text>
+</svg>
