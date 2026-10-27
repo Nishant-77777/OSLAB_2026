@@ -1,0 +1,20 @@
+Assignment 9 expected xv6 terminal transcript
+Student: Nishant (2403MC02)
+
+$ pttest
+Q1: initial page table
+vmprint: user pages 3, page-table pages 1
+Q1: after sbrk(4 * 4096) and four touches
+vmprint: user pages 7, page-table pages 1
+
+$ faulttest
+Q2: handled faults = 5 (expected 5)
+pid <child>: page fault at 0x<address>--kill proc
+Q2: parent survived child invalid-access test
+
+$ pagerepl 3 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+FIFO faults = 15, LRU faults = 12
+frames  FIFO faults  FIFO hit%  LRU faults  LRU hit%
+3       15           25       12           40
+4       10           50       8            60
+5       9            55       7            65
