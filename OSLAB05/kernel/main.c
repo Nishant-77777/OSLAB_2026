@@ -20,6 +20,8 @@ main()
     kvminit();          // create kernel page table
     kvminithart();      // turn on paging
     procinit();         // process table
+
+    // initialize the shared memory during booting of the kernel
     shm_init();
     semaphore_init();
     trapinit();         // trap vectors

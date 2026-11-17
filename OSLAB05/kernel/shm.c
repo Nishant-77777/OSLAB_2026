@@ -5,9 +5,10 @@
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
+
 struct {
-  struct spinlock lock;
-  uint64 pa;
+  struct spinlock lock; //lock to protect global state
+  uint64 pa; //physical address of the shared page
 } shm;
 
 void
@@ -24,7 +25,7 @@ shm_get(void)
 
   acquire(&shm.lock);
 
-  if(shm.pa == 0){
+  if(shm.pa == 0){  //when first process calls shm_get, allocate a page of physical memory for the shared page as no shared page existed yet
     char *mem = kalloc();
 
     if(mem == 0){

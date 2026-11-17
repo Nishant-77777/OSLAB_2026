@@ -1,0 +1,9 @@
+IS-IS SIMULATION - LSP FLOODING + DIJKSTRA
+LSP forwarding events modelled: 14
+Each router synchronizes the complete link-state database before SPF.
+
+Router R1 routing table: R1: metric 0, R2: metric 10, R3: metric 15, R4: metric 25, R5: metric 23
+Router R2 routing table: R1: metric 10, R2: metric 0, R3: metric 5, R4: metric 15, R5: metric 13
+Router R3 routing table: R1: metric 15, R2: metric 5, R3: metric 0, R4: metric 10, R5: metric 8
+Router R4 routing table: R1: metric 25, R2: metric 15, R3: metric 10, R4: metric 0, R5: metric 6
+Router R5 routing table: R1: metric 23, R2: metric 13, R3: metric 8, R4: metric 6, R5: metric 0

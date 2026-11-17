@@ -1,0 +1,18 @@
+OSPF SIMULATION - LINK STATE FLOODING + DIJKSTRA
+LSA transmissions modelled: 14
+All routers have a synchronized link-state database before SPF runs.
+
+Router A shortest-path tree: B<-A, C<-B, D<-B, E<-C
+  Routing table: A: cost 0, B: cost 2, C: cost 3, D: cost 4, E: cost 4
+
+Router B shortest-path tree: A<-B, C<-B, D<-B, E<-C
+  Routing table: A: cost 2, B: cost 0, C: cost 1, D: cost 2, E: cost 2
+
+Router C shortest-path tree: A<-B, B<-C, D<-C, E<-C
+  Routing table: A: cost 3, B: cost 1, C: cost 0, D: cost 3, E: cost 1
+
+Router D shortest-path tree: A<-B, B<-D, C<-D, E<-D
+  Routing table: A: cost 4, B: cost 2, C: cost 3, D: cost 0, E: cost 2
+
+Router E shortest-path tree: A<-B, B<-C, C<-E, D<-E
+  Routing table: A: cost 4, B: cost 2, C: cost 1, D: cost 2, E: cost 0

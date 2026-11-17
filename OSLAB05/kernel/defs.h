@@ -185,7 +185,7 @@ void            virtio_disk_intr(void);
 // number of elements in fixed-size array
 #define NELEM(x) (sizeof(x) / sizeof((x)[0]))
 
-
+// Kernel C files need declarations before calling functions implemented in another file.
 void            shm_init(void);
 uint64          shm_get(void);
 void            shm_unmap(pagetable_t);

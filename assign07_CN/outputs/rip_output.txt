@@ -1,0 +1,9 @@
+RIP SIMULATION - BELLMAN-FORD DISTANCE VECTOR
+Converged after 2 synchronous rounds.
+Routing-update messages sent: 28
+
+Router A: A: 0 hop(s), B: 1 hop(s), C: 1 hop(s), D: 2 hop(s), E: 2 hop(s)
+Router B: A: 1 hop(s), B: 0 hop(s), C: 1 hop(s), D: 1 hop(s), E: 2 hop(s)
+Router C: A: 1 hop(s), B: 1 hop(s), C: 0 hop(s), D: 1 hop(s), E: 1 hop(s)
+Router D: A: 2 hop(s), B: 1 hop(s), C: 1 hop(s), D: 0 hop(s), E: 1 hop(s)
+Router E: A: 2 hop(s), B: 2 hop(s), C: 1 hop(s), D: 1 hop(s), E: 0 hop(s)

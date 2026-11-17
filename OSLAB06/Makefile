@@ -156,6 +156,7 @@ UPROGS=\
         $U/_prodcons\
 	$U/_readwrite\
 	$U/_dining\
+	
 	$U/_bankers\
 	$U/_deadlockdetect\
 	$U/_orderedlocks\

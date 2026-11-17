@@ -61,4 +61,6 @@
 //   TRAPFRAME (p->trapframe, used by the trampoline)
 //   TRAMPOLINE (the same page as in the kernel)
 #define TRAPFRAME (TRAMPOLINE - PGSIZE)
+
+// virtual address where both process will see shared page 
 #define SHM_VA (TRAPFRAME - PGSIZE)
